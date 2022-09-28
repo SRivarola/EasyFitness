@@ -1,0 +1,90 @@
+.register-root{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-root form{
+    margin-top: 100px;
+    width: 75%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 2px 2px 5px rgb(255, 54, 181);
+    position: relative;
+}
+
+.register-root form .titulo{
+    color: #0d192b;
+}
+
+.register-root form .groupForm1{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+}
+
+.register-root form .groupForm1 .nombreCompleto{
+    width: 45%;
+}
+
+.register-root form .groupForm1 .groupThin{
+    width: 16%;
+}
+
+.register-root form .formContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+}
+
+.register-root form .formContainer .errorContainer{
+    height: 10px;
+}
+
+.register-root form .formContainer label{
+    font-size: 14px;
+}
+
+.register-root form .formContainer input, select{
+    height: 30px;
+    margin: 5px 0;
+    padding: 0 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.register-root form .formContainer .error{
+    border: 1px solid red;
+}
+
+.register-root form .formContainer .errorMessage{
+    font-size: 13px;
+    color: red;
+}
+
+.register-root form .buttonContainer{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.register-root form .buttonContainer button{
+    position: relative;
+    width: 100%;
+    margin: 0 10px;
+    font-family: Basica-Bold;
+    letter-spacing: 1px;
+    color: white;
+    background: #E20079;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    cursor: pointer;
+}

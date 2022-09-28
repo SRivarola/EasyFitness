@@ -1,0 +1,74 @@
+.login-root{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+}
+
+.login-root .loginForm{
+    margin-top: 100px;
+    width: 30%;
+    border-radius: 5px;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 2px 2px 5px rgb(255, 54, 181);
+}
+
+.login-root .loginForm .titulo{
+    color: #0d192b;
+    padding-bottom: 10px;
+}
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.formContainer .label{
+    font-size: 15px;
+}
+
+.formContainer input{
+    height: 30px;
+    margin: 5px 0;
+    padding: 0 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.formContainer input:focus{
+    outline: none;
+}
+.formContainer .error{
+    border: 1px solid red;
+}
+.formContainer .errorMessage{
+    font-size: 13px;
+    color: red;
+    height: 10px;
+}
+.login-root .loginForm .loginButuon{
+    font-family: Basica-Bold;
+    font-size: 15px;
+    color: white;
+    letter-spacing: 1px;
+    background: #E20079;
+    border: 1px solid #E20079;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    width: 100%;
+    transition: all 1s ease;
+}
+
+.login-root .loginForm .loginButuon:hover{
+    background: #fff;
+    color: #E20079;
+}
+
+.login-root .loginForm .loginButuon:active{
+    background: #E20079;
+    color: #fff;
+    transition: all 0.1s ease;
+}

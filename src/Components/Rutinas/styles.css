@@ -1,0 +1,35 @@
+.rutinas-root{
+    position: relative;
+    padding-top: 120px;
+}
+
+.rutinas-root .title{
+    text-align: center;
+    padding: 15px;
+    color: #09c184;
+}
+
+.rutinas-root ul{
+    margin: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.rutinas-root ul li{
+    margin: 10px;
+    text-align: center;
+}
+
+.rutinas-root ul li a, a:visited{
+    color: #fff;
+    transition: all 0.8s;
+}
+
+.rutinas-root ul li a:hover{
+    font-size: 20px;
+    color: #E20079;
+}
+
+.rutinas-root ul li a span{
+    margin: 0 5px;
+}

@@ -1,0 +1,13 @@
+.ejercicios-lista{
+    margin-bottom: 30px;
+    padding: 5px;
+}
+.ejercicios-lista .titulo{
+    font-weight: bold;
+    font-style: italic;
+    padding-bottom: 5px;
+}
+.ejercicios-lista .items{
+    padding: 2px;
+    border-bottom: 1px solid #fff;
+}

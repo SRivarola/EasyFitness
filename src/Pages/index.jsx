@@ -1,0 +1,7 @@
+export { default as Home } from './Home'
+export { default as Error404 } from './Error404'
+export { default as Login } from './Login'
+export { default as Register } from './Register'
+export { default as Workout } from './Workout'
+export { default as Alumno } from './Alumno'
+export { default as CrearNueva } from './CrearNueva'

@@ -1,0 +1,60 @@
+.workout-root{
+    padding-top: 120px;
+    width: 100%;
+}
+.workout-root .header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+.workout-root .header a{
+    background: #E20079;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    line-height: 35px;
+    height: 35px;
+}
+.workout-root .header h1{
+    padding-top: 10px;
+    color: #09c184;
+}
+.workout-root .rutinaContainer{
+    margin-bottom: 20px;
+}
+.workout-root .rutinaContainer .tituloContainer{
+    margin: 0 20px;
+}
+.workout-root .rutinaContainer .tituloContainer .tituloRutina{
+    width: 20%;
+    border-radius: 5px 5px 0 0;
+    background: #858585;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    filter: drop-shadow(2px 2px 5px #999);
+}
+.workout-root .rutinaContainer .rutina{
+    padding: 0 20px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    filter: drop-shadow(2px 2px 5px #999);
+}
+.workout-root .rutinaContainer .rutina .ejercicios{
+    width: 20%;
+    min-width: fit-content;
+    background: #9c9c9c;
+}
+.workout-root .rutinaContainer .rutina .semanas{
+    width: 20%;
+    min-width: fit-content;
+    background: #858585;
+}
+.workout-root .rutinaContainer .rutina .semanas ul{
+    text-align: center;
+}
+.workout-root .rutinaContainer .rutina .claro{
+    background: #9c9c9c !important;
+} 

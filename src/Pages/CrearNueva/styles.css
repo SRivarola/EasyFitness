@@ -1,0 +1,124 @@
+.crearNueva-Root{
+    position: relative;
+    padding-top: 110px;
+    width: 100%;
+}
+.crearNueva-Root .tituloContainer{
+    width: 100%;
+}
+.crearNueva-Root .tituloContainer .titulo{
+    text-align: center;
+    padding-top: 20px;
+    color: #09c184;
+}
+.crearNueva-Root .form{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.crearNueva-Root .form .divForm label{
+    margin-right: 15px;
+    color: #fff;
+}
+.crearNueva-Root .form .divForm input{
+    height: 30px;
+    border: 1px black solid;
+    border-radius: 5px;
+    padding: 0 5px;
+    width: 300px;
+}
+.crearNueva-Root .form .divForm select{
+    height: 30px;
+    border: 1px black solid;
+    border-radius: 5px;
+    padding: 5px;
+    width: 50px;
+}
+.crearNueva-Root .form .dayForm{
+    margin-top: 20px;
+}
+.crearNueva-Root .form .dayForm .encabezado{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.crearNueva-Root .form .dayForm .encabezado .encabezado-titulo{
+    font-weight: bold;
+    text-align: center;
+    color: #07f9a2;
+    width: 100%;
+}
+.crearNueva-Root .form .dayForm .formDiaCompleto{
+    width: 100%;
+}
+.crearNueva-Root .form .dayForm .formDiaCompleto .formDiaCompleto-campos{
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0;
+}
+.crearNueva-Root .form .dayForm .formDiaCompleto .formDiaCompleto-campos .campoEjercicios{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    width: 20%;
+    margin: 0 5px;
+} 
+.crearNueva-Root .form .dayForm .formDiaCompleto .formDiaCompleto-campos .campoEjercicios .trashIcon{
+    font-size: 30px;
+    width: 20px;
+    cursor: pointer;
+    color: #09c184;
+}
+.crearNueva-Root .form .dayForm .formDiaCompleto .formDiaCompleto-campos .campoEjercicios .field{
+    width: 80%;
+}
+.crearNueva-Root .form .dayForm .formDiaCompleto .formDiaCompleto-campos .fields{
+    width: 20%;
+    margin: 0 5px;
+    padding: 0;
+    text-align: center;
+}
+.crearNueva-Root .form .dayForm .formDiaCompleto .btnAddLineContainer{
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+}
+.crearNueva-Root .form .dayForm .formDiaCompleto .btnAddLineContainer .inconAddLine{
+    font-size: 25px;
+    color: #E20079;
+    cursor: pointer;
+}
+.crearNueva-Root .form .dayForm .formDiaCompleto .btnAddLineContainer .textAddLine{
+    font-size: 14px;
+    margin-left: 5px;
+    color: #fff;
+}
+.crearNueva-Root .form .dayForm .inputsContainer{
+    padding: 5px 0;
+    width: 100%;
+    display: flex;
+}
+.crearNueva-Root .form .dayForm .inputsContainer input{
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.crearNueva-Root .form .buttonContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.crearNueva-Root .form .buttonContainer .submitButton{
+    padding: 10px 40px;
+    border: none;
+    border-radius: 5px;
+    background: #E20079;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
